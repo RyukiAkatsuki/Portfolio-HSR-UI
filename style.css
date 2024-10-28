@@ -4,4 +4,19 @@
   padding: 0;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.mainbody {
+  border: 1px solid black;
+  height: 991px;
+  width: 693px;
+  background-color: #2D2D2D;
+  border-radius: 0 20px 20px 0;
+}
+
 /*# sourceMappingURL=style.css.map */
