@@ -58,4 +58,22 @@ body {
   align-items: center;
 }
 
+.shortpresentation {
+  height: 100px;
+  width: 622px;
+  border: 1px solid #c0c0c0;
+  margin: 10px 35px;
+  padding: 12px;
+  border-radius: 10px;
+}
+.shortpresentation .whatiam {
+  color: #b1b1b1;
+}
+.shortpresentation .situation {
+  color: #b1b1b1;
+}
+.shortpresentation .hobbies {
+  color: #b1b1b1;
+}
+
 /*# sourceMappingURL=style.css.map */
