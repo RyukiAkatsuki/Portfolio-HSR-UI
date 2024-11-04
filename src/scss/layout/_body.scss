@@ -19,6 +19,10 @@ body {
     border-radius: 0 20px 20px 0;
 }
 
+#lang {
+    padding: 20px;
+}
+
 .info {
     display: flex;
     flex-direction: row;
@@ -76,4 +80,33 @@ body {
     .hobbies {
         color: #b1b1b1;
     }
+}
+
+.level {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .age {
+        width: 253px;
+        height: 28px;
+        text-align: center;
+        color: #b1b1b1;
+    }
+    .progressbarage {
+        margin-top: 10px;
+        width: 622px;
+        height: 8px;
+        border: 1px solid #393939;
+        overflow: hidden;
+    
+        .progressage {
+            background-image: linear-gradient(90deg, #AA00C3 0%, #0000D9 100%);
+            height: 100%;
+            width: 24%; 
+            transition: width 0.5s ease;
+        }
+    }
+    
+
 }
