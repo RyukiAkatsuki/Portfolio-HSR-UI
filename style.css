@@ -106,4 +106,32 @@ body {
   transition: width 0.5s ease;
 }
 
+.uppergrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  /* First column is twice the size of the others */
+  gap: 10px;
+  /* Space between grid items */
+  max-width: 600px;
+  /* Optional max-width for the grid */
+  margin: 20px auto;
+  /* Center the grid on the page */
+}
+.uppergrid .grid-item {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  height: 140px;
+  width: 140px;
+}
+.uppergrid .grid-item-large {
+  width: 301px;
+  height: 145px;
+  background-color: #5b5b5b;
+  grid-column: span 2;
+}
+
 /*# sourceMappingURL=style.css.map */
