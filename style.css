@@ -116,14 +116,27 @@ body {
 .upperRowOne .rectangle {
   width: 301px;
   height: 145px;
-  border: 1px solid #b04141;
+  border: 1px solid #d22020;
   margin: 0 10px;
+  background-color: #a900c31d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.upperRowOne .rectangle .presentation {
+  margin-top: 50px;
+  color: #b1b1b1;
+  text-decoration: none;
 }
 .upperRowOne .square {
   width: 145px;
   height: 145px;
-  border: 1px solid #b04141;
+  border: 1px solid #d22020;
   margin: 0 10px;
+  background-color: #0000d928;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .upperRowTwo {
@@ -136,14 +149,16 @@ body {
 .upperRowTwo .rectangle {
   width: 301px;
   height: 145px;
-  border: 1px solid #b04141;
+  border: 1px solid #d22020;
   margin: 0 10px;
+  background-color: #a900c31d;
 }
 .upperRowTwo .square {
   width: 145px;
   height: 145px;
-  border: 1px solid #b04141;
+  border: 1px solid #d22020;
   margin: 0 10px;
+  background-color: #0000d928;
 }
 
 .lowerRowOne {
@@ -156,14 +171,16 @@ body {
 .lowerRowOne .square {
   width: 145px;
   height: 145px;
-  border: 1px solid #b04141;
+  border: 1px solid #d22020;
   margin: 0 10px;
+  background-color: #0000d928;
 }
 .lowerRowOne .rectagle {
   width: 301px;
   height: 145px;
-  border: 1px solid #b04141;
+  border: 1px solid #d22020;
   margin: 0 10px;
+  background-color: #a900c31d;
 }
 
 .lowerRowTwo {
@@ -176,14 +193,16 @@ body {
 .lowerRowTwo .square {
   width: 145px;
   height: 145px;
-  border: 1px solid #b04141;
+  border: 1px solid #d22020;
   margin: 0 10px;
+  background-color: #0000d928;
 }
 .lowerRowTwo .rectagle {
   width: 301px;
   height: 145px;
-  border: 1px solid #b04141;
+  border: 1px solid #d22020;
   margin: 0 10px;
+  background-color: #a900c31d;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -118,14 +118,27 @@ body {
     .rectangle {
         width: 301px;
         height: 145px;
-        border: 1px solid #b04141;
+        border: 1px solid #d22020;
         margin: 0 10px;
+        background-color: #a900c31d;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .presentation {
+            margin-top: 50px;
+            color: #b1b1b1;
+            text-decoration: none;
+        }
     }
     .square {
         width: 145px;
         height: 145px;
-        border: 1px solid #b04141;
+        border: 1px solid #d22020;
         margin: 0 10px;
+        background-color: #0000d928;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -138,14 +151,16 @@ body {
     .rectangle {
         width: 301px;
         height: 145px;
-        border: 1px solid #b04141;
+        border: 1px solid #d22020;
         margin: 0 10px;
+        background-color: #a900c31d;
     }
     .square {
         width: 145px;
         height: 145px;
-        border: 1px solid #b04141;
+        border: 1px solid #d22020;
         margin: 0 10px;
+        background-color: #0000d928;
     }
 }
 
@@ -158,14 +173,16 @@ body {
     .square {
         width: 145px;
         height: 145px;
-        border: 1px solid #b04141;
+        border: 1px solid #d22020;
         margin: 0 10px;
+        background-color: #0000d928;
     }
     .rectagle {
         width: 301px;
         height: 145px;
-        border: 1px solid #b04141;
+        border: 1px solid #d22020;
         margin: 0 10px;
+        background-color: #a900c31d;
     }
 }
 
@@ -178,13 +195,15 @@ body {
     .square {
         width: 145px;
         height: 145px;
-        border: 1px solid #b04141;
+        border: 1px solid #d22020;
         margin: 0 10px;
+        background-color: #0000d928;
     }
     .rectagle {
         width: 301px;
         height: 145px;
-        border: 1px solid #b04141;
+        border: 1px solid #d22020;
         margin: 0 10px;
+        background-color: #a900c31d;
     }
 }
