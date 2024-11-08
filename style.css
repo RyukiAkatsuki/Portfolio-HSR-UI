@@ -113,6 +113,39 @@ body {
   justify-content: center;
   margin-top: 20px;
 }
+.upperRowOne .presentation {
+  color: #b1b1b1;
+  text-decoration: none;
+}
+.upperRowOne .presentation .linkpresentation {
+  text-decoration: none;
+  color: #b1b1b1;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 60px;
+}
+.upperRowOne .languageskills {
+  color: #b1b1b1;
+  text-decoration: none;
+}
+.upperRowOne .languageskills .linklanguageskills {
+  text-decoration: none;
+  color: #b1b1b1;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 60px;
+}
+.upperRowOne .programmingandwebskills {
+  color: #b1b1b1;
+  text-decoration: none;
+}
+.upperRowOne .programmingandwebskills .linkprogrammingandwebskills {
+  text-decoration: none;
+  color: #b1b1b1;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 40px;
+}
 .upperRowOne .rectangle {
   width: 301px;
   height: 145px;
@@ -122,11 +155,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.upperRowOne .rectangle .presentation {
-  margin-top: 50px;
-  color: #b1b1b1;
-  text-decoration: none;
 }
 .upperRowOne .square {
   width: 145px;
@@ -145,6 +173,39 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+}
+.upperRowTwo .cv {
+  color: #b1b1b1;
+  text-decoration: none;
+}
+.upperRowTwo .cv .linkcv {
+  text-decoration: none;
+  color: #b1b1b1;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 60px;
+}
+.upperRowTwo .hobbies {
+  color: #b1b1b1;
+  text-decoration: none;
+}
+.upperRowTwo .hobbies .linkhobbies {
+  text-decoration: none;
+  color: #b1b1b1;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 60px;
+}
+.upperRowTwo .favlightnovel {
+  color: #b1b1b1;
+  text-decoration: none;
+}
+.upperRowTwo .favlightnovel .linkfavlightnovel {
+  text-decoration: none;
+  color: #b1b1b1;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 50px;
 }
 .upperRowTwo .rectangle {
   width: 301px;
@@ -168,6 +229,61 @@ body {
   justify-content: center;
   margin-top: 20px;
 }
+.lowerRowOne .professionalproject {
+  color: #b1b1b1;
+  text-decoration: none;
+}
+.lowerRowOne .professionalproject .linkprofessionalprojects {
+  text-decoration: none;
+  color: #b1b1b1;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 60px;
+}
+.lowerRowOne .favanimes {
+  color: #b1b1b1;
+  text-decoration: none;
+}
+.lowerRowOne .favanimes .linkfavanimes {
+  text-decoration: none;
+  color: #b1b1b1;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 60px;
+}
+.lowerRowOne .favmanga {
+  color: #b1b1b1;
+  text-decoration: none;
+}
+.lowerRowOne .favmanga .linkfavmanga {
+  text-decoration: none;
+  color: #b1b1b1;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 60px;
+}
+.lowerRowOne .favmusic {
+  color: #b1b1b1;
+  text-decoration: none;
+}
+.lowerRowOne .favmusic .linkfavmusic {
+  text-decoration: none;
+  color: #b1b1b1;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 60px;
+}
+.lowerRowOne .contact {
+  color: #b1b1b1;
+  text-decoration: none;
+}
+.lowerRowOne .contact .linkcontact {
+  text-decoration: none;
+  color: #b1b1b1;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 60px;
+}
 .lowerRowOne .square {
   width: 145px;
   height: 145px;
@@ -189,6 +305,39 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+}
+.lowerRowTwo .personalproject {
+  color: #b1b1b1;
+  text-decoration: none;
+}
+.lowerRowTwo .personalproject .linkpersonalprojects {
+  text-decoration: none;
+  color: #b1b1b1;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 60px;
+}
+.lowerRowTwo .contact {
+  color: #b1b1b1;
+  text-decoration: none;
+}
+.lowerRowTwo .contact .linkcontact {
+  text-decoration: none;
+  color: #b1b1b1;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 60px;
+}
+.lowerRowTwo .favanimes {
+  color: #b1b1b1;
+  text-decoration: none;
+}
+.lowerRowTwo .favanimes .linkfavanimes {
+  text-decoration: none;
+  color: #b1b1b1;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 60px;
 }
 .lowerRowTwo .square {
   width: 145px;
