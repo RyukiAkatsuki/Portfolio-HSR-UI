@@ -8,90 +8,94 @@
 </head>
 <body>
     <div class="mainbody">
-        <div class="info">
-            <a href="index.html"><img src="src/img/profile.png" alt="avatar" class="avatar"></a>
-            <div class="fullname">
-                <p class="name">John Doe</p>
-                <p class="job">Développeur Full Stack</p>
+        <div class="infopart">
+            <div class="info">
+                <a href="index.html"><img src="src/img/profile.png" alt="avatar" class="avatar"></a>
+                <div class="fullname">
+                    <p class="name">John Doe</p>
+                    <p class="job">Développeur Full Stack</p>
+                </div>
+                <div class="change">
+                    <select name="lang" id="lang">
+                        <option value="fr">Français</option>
+                        <option value="en">English</option>
+                        <option value="es">Español</option>
+                        <option value="cn">简体中文</option>
+                        <option value="tw">繁體中文</option>
+                        <option value="jp">日本語</option>
+                    </select>
+                </div>
             </div>
-            <div class="change">
-                <select name="lang" id="lang">
-                    <option value="fr">Français</option>
-                    <option value="en">English</option>
-                    <option value="es">Español</option>
-                    <option value="cn">简体中文</option>
-                    <option value="tw">繁體中文</option>
-                    <option value="jp">日本語</option>
-                </select>
+
+            <div class="shortpresentation">
+                <p class="whatiam">Je suis un développeur Full Stack</p>
+                <p class="situation">Actuellement en formation chez 3W Academy. 
+                    En recherche d'alternance en Développeur Full Stack (3 semaines entreprise et 1 semaine de cours)</p>
+                <p class="hobbies">Passionné de langues étrangères depuis petit, du Jeu-Vidéo et plein d'autres chose</p>
+            </div>
+
+            <div class="level">
+                <div class="age">
+                    <p><strong>Âge:</strong> 24</p>
+                </div>
+                <div class="progressbarage">
+                    <div class="progressage"></div>
+                </div>
             </div>
         </div>
 
-        <div class="shortpresentation">
-            <p class="whatiam">Je suis un développeur Full Stack</p>
-            <p class="situation">Actuellement en formation chez 3W Academy. 
-                En recherche d'alternance en Développeur Full Stack (3 semaines entreprise et 1 semaine de cours)</p>
-            <p class="hobbies">Passionné de langues étrangères depuis petit, du Jeu-Vidéo et plein d'autres chose</p>
-        </div>
+        <div>
+            <div class="skillProg">
+                <div class="circle" data-degree="100" data-color="#ff8000">
+                    <h2 class="number">100<span>%</span></h2>
+                    <h4 class="lang">HTML</h4>
+                </div>
+                <div class="circle" data-degree="100" data-color="#0884eb">
+                    <h2 class="number">100<span>%</span></h2>
+                    <h4 class="lang">CSS</h4>
+                </div>
+                <div class="circle" data-degree="85" data-color="#ac00b7">
+                    <h2 class="number">85<span>%</span></h2>
+                    <h4 class="lang">SCSS</h4>
+                </div>
+                <div class="circle" data-degree="75" data-color="#f5fd03">
+                    <h2 class="number">75<span>%</span></h2>
+                    <h4 class="lang">JS</h4>
+                </div>
+            </div>
 
-        <div class="level">
-            <div class="age">
-                <p><strong>Âge:</strong> 24</p>
+            <div class="skillProg">
+                <div class="circle" data-degree="40" data-color="#594399">
+                    <h2 class="number">40<span>%</span></h2>
+                    <h4 class="lang">PHP</h4>
+                </div>
+                <div class="circle" data-degree="30" data-color="#1b28a7">
+                    <h2 class="number">30<span>%</span></h2>
+                    <h4 class="lang">Python</h4>
+                </div>
+                <div class="circle" data-degree="60" data-color="#ebb259">
+                    <h2 class="number">60<span>%</span></h2>
+                    <h4 class="lang">MySQL</h4>
+                </div>
+                <div class="circle" data-degree="70" data-color="#0fdd1e">
+                    <h2 class="number">70<span>%</span></h2>
+                    <h4 class="lang">NodeJS</h4>
+                </div>
             </div>
-            <div class="progressbarage">
-                <div class="progressage"></div>
-            </div>
-        </div>
 
-        <div class="skillProg">
-            <div class="circle" data-degree="100" data-color="#ff8000">
-                <h2 class="number">100<span>%</span></h2>
-                <h4 class="lang">HTML</h4>
-            </div>
-            <div class="circle" data-degree="100" data-color="#0884eb">
-                <h2 class="number">100<span>%</span></h2>
-                <h4 class="lang">CSS</h4>
-            </div>
-            <div class="circle" data-degree="85" data-color="#ac00b7">
-                <h2 class="number">85<span>%</span></h2>
-                <h4 class="lang">SCSS</h4>
-            </div>
-            <div class="circle" data-degree="75" data-color="#f5fd03">
-                <h2 class="number">75<span>%</span></h2>
-                <h4 class="lang">JS</h4>
-            </div>
-        </div>
-
-        <div class="skillProg">
-            <div class="circle" data-degree="40" data-color="#594399">
-                <h2 class="number">40<span>%</span></h2>
-                <h4 class="lang">PHP</h4>
-            </div>
-            <div class="circle" data-degree="30" data-color="#1b28a7">
-                <h2 class="number">30<span>%</span></h2>
-                <h4 class="lang">Python</h4>
-            </div>
-            <div class="circle" data-degree="60" data-color="#ebb259">
-                <h2 class="number">60<span>%</span></h2>
-                <h4 class="lang">MySQL</h4>
-            </div>
-            <div class="circle" data-degree="70" data-color="#0fdd1e">
-                <h2 class="number">70<span>%</span></h2>
-                <h4 class="lang">NodeJS</h4>
-            </div>
-        </div>
-
-        <div class="skillProg">
-            <div class="circle" data-degree="60" data-color="#878987">
-                <h2 class="number">60<span>%</span></h2>
-                <h4 class="lang">Symfony</h4>
-            </div>
-            <div class="circle" data-degree="60" data-color="#095809">
-                <h2 class="number">60<span>%</span></h2>
-                <h4 class="lang">VueJS</h4>
-            </div>
-            <div class="circle" data-degree="40" data-color="#03e3f9">
-                <h2 class="number">40<span>%</span></h2>
-                <h4 class="lang">TailwindCSS</h4>
+            <div class="skillProg">
+                <div class="circle" data-degree="60" data-color="#878987">
+                    <h2 class="number">60<span>%</span></h2>
+                    <h4 class="lang">Symfony</h4>
+                </div>
+                <div class="circle" data-degree="60" data-color="#095809">
+                    <h2 class="number">60<span>%</span></h2>
+                    <h4 class="lang">VueJS</h4>
+                </div>
+                <div class="circle" data-degree="40" data-color="#03e3f9">
+                    <h2 class="number">40<span>%</span></h2>
+                    <h4 class="lang">TailwindCSS</h4>
+                </div>
             </div>
         </div>
 

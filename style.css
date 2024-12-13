@@ -5,18 +5,14 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  background: #2D2D2D;
 }
 
 .mainbody {
-  border: 1px solid black;
-  height: 991px;
-  width: 693px;
-  background-color: #2D2D2D;
-  border-radius: 0 20px 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 #lang {
@@ -361,7 +357,7 @@ body {
   align-items: center;
   position: relative;
   gap: 40px;
-  padding: 90px;
+  padding: 20px;
 }
 .skillLang .circle {
   display: flex;
@@ -423,7 +419,7 @@ body {
   align-items: center;
   position: relative;
   gap: 40px;
-  padding: 50px;
+  padding: 20px;
 }
 .skillProg .circle {
   display: flex;
