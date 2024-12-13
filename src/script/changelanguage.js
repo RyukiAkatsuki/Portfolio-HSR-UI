@@ -2,7 +2,7 @@ const translations = {
     fr: {
         name: "John Doe",
         job: "Développeur Full Stack",
-        whatiam: "Je suis un développeur Front End",
+        whatiam: "Je suis un développeur Full Stack",
         situation: "Actuellement en formation chez 3W Academy. En recherche d'alternance en Développeur Full Stack (3 semaines entreprise et 1 semaine de cours)",
         hobbies: "Passionné de langues étrangères depuis petit, du Jeu-Vidéo et plein d'autres chose",
     },
@@ -24,7 +24,7 @@ const translations = {
         name: "John Doe",
         job: "全端工程师",
         whatiam: "我是一名全端工程师",
-        situation: "目前正在 3W Academy 接受培训。正在寻找全栈开发人员的学徒机会 (3 周企业实践, 1 周课程学习）。",
+        situation: "目前正在 3W Academy 接受培训。正在寻找全端工程师的学徒机会 (3 周企业实践, 1 周课程学习）。",
         hobbies: "从小到大很爱外国语言，游戏和其他事物",
     },
     tw: {
@@ -50,6 +50,7 @@ let job = document.querySelector(".job");
 let whatiam = document.querySelector(".whatiam");
 let situation = document.querySelector(".situation");
 let hobbies = document.querySelector(".hobbies");
+let shortPresentation = document.querySelector(".shortpresentation");
 
 languageSelecttop.addEventListener("change", (event) => {
     setLanguage(event.target.value);
@@ -64,5 +65,11 @@ const setLanguage = (language) => {
         whatiam.innerText = selectedTranslation.whatiam;
         situation.innerText = selectedTranslation.situation;
         hobbies.innerText = selectedTranslation.hobbies;
+    }
+
+    if (["cn", "jp", "tw"].includes(language)) {
+        shortPresentation.style.height = "120px";
+    } else {
+        shortPresentation.style.height = ""; 
     }
 };
