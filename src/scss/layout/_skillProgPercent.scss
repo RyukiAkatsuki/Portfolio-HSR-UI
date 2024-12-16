@@ -1,11 +1,28 @@
 .skillProg {
     display: flex;
-    flex-direction: row;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     position: relative;
-    gap: 40px;
+    gap: 20px; 
     padding: 20px;
+
+    .technoTitle {
+        font-size: 22px;
+        color: #6a94e9;
+        text-transform: uppercase;
+        margin-bottom: 10px; 
+        text-align: center;
+    }
+
+    .circleContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
     .circle {
         display: flex;
         flex-direction: column;
