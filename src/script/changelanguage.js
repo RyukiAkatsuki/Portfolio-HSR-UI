@@ -1,6 +1,6 @@
 const translations = {
     fr: {
-        name: "John Doe",
+        name: "Rémy K",
         job: "Développeur Full Stack",
         whatiam: "Je suis un développeur Full Stack",
         situation: "Actuellement en formation chez 3W Academy. En recherche d'alternance en Développeur Full Stack (3 semaines entreprise et 1 semaine de cours)",
@@ -19,7 +19,7 @@ const translations = {
         linkprofessionalproject: "Projets Professionnels",
     },
     en: {
-        name: "John Doe",
+        name: "Remy K",
         job: "Full Stack Developer",
         whatiam: "I am a full stack developer",
         situation: "Currently training at 3W Academy. Looking for internship in Full Stack Developer (3 months at work and 1 week of training)",
@@ -38,7 +38,7 @@ const translations = {
         linkprofessionalproject: "Professional Projects",
     },
     es: {
-        name: "John Doe",
+        name: "Remy K",
         job: "Desarrollador Full Stack",
         whatiam: "Soy un desarrollador full stack",
         situation: "Actualmente en formación en 3W Academy. Buscando alternancia en Desarrollador Full Stack (3 semanas en el trabajo y 1 semana de formación)",
@@ -57,7 +57,7 @@ const translations = {
         linkprofessionalproject: "Proyectos Profesionales",
     },
     cn: {
-        name: "John Doe",
+        name: "亦麟",
         job: "全端工程师",
         whatiam: "我是一名全端工程师",
         situation: "目前正在 3W Academy 接受培训。正在寻找全端工程师的学徒机会 (3 周企业实践, 1 周课程学习）。",
@@ -76,7 +76,7 @@ const translations = {
         linkprofessionalproject: "企业项目",
     },
     tw: {
-        name: "John Doe",
+        name: "亦麟",
         job: "全端工程师",
         whatiam: "我是一名全端工程师",
         situation: "目前正在 3W Academy 接受培訓。正在尋找全端開發人員的學徒機會 (3 週企業實踐, 1 週課程學習）。",
@@ -95,7 +95,7 @@ const translations = {
         linkprofessionalproject: "專業專案",
     },
     jp: {
-        name: "John Doe",
+        name: "レイミ",
         job: "フルスタック開発者",
         whatiam: "フルスタックをしています。",
         situation: "現在、3W Academyで研修中です。フルスタック開発者としての交替制インターンシップを探しています(企業で3週間、授業で1週)。",
