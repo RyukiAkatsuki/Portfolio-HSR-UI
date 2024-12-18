@@ -20,3 +20,20 @@ function randomShine() {
 }
 
 setInterval(randomShine, 200);
+
+const textArray = ["Bienvenue", "Welcome", "Bienvenidos", "欢迎光临", "ようこそ"];
+const typingElement = document.querySelector('.welcome');
+let currentIndex = 0;
+
+function typeText() {
+    typingElement.textContent = textArray[currentIndex]; 
+    typingElement.style.animation = "none"; 
+    void typingElement.offsetWidth; 
+    typingElement.style.animation = "typing 2s steps(20) forwards, blink 0.5s step-end infinite alternate";
+
+    currentIndex = (currentIndex + 1) % textArray.length;
+}
+
+typeText(); 
+setInterval(typeText, 5000);
+
