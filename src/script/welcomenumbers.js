@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
         currentIndex = (currentIndex + 1) % textArray.length;
     }
     typeText();
-    setInterval(typeText, 10000);
+    setInterval(typeText, 3000);
 
     
     const portfolioArray = ["Vers le Portfolio", "To the Portfolio", "Al Portafolio", "进入我的作品集", "ポートフォリオへ"];
@@ -54,5 +54,5 @@ document.addEventListener("DOMContentLoaded", () => {
         portfolioIndex = (portfolioIndex + 1) % portfolioArray.length;
     }
     typePortfolio();
-    setInterval(typePortfolio, 10000);
+    setInterval(typePortfolio, 3000);
 });
