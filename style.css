@@ -453,18 +453,21 @@ body {
   border: none;
   outline: none;
   border-radius: 5px;
-  color: #fff;
   font-size: 1em;
   letter-spacing: 0.05em;
   text-decoration: none;
   text-align: center;
   font-weight: 600;
-  color: #5d5d8b;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #191936;
   cursor: pointer;
+  animation: typing 2s steps(20) forwards, blink 0.5s step-end infinite alternate;
   transition: 0.5s;
 }
 .box form .redirectPortfolio:hover {
   background-color: #ff2770;
+  color: #dcdcdc;
 }
 
 @property --a {

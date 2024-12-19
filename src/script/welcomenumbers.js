@@ -1,39 +1,58 @@
-let numbers = document.querySelector(".binaryNumber");
-let numString = numbers.textContent;
-let splitNum = numString.split("");
+document.addEventListener("DOMContentLoaded", () => {
+    const numbers = document.querySelector(".binaryNumber");
+    const numString = numbers.textContent.trim();
+    const splitNum = numString.split("");
 
-numbers.textContent = "";
-for (let i = 0; i < splitNum.length; i++) {
-    numbers.innerHTML += "<span>" + splitNum[i] + "</span>";
-}
+    const fragment = document.createDocumentFragment();
+    splitNum.forEach(char => {
+        const span = document.createElement("span");
+        span.textContent = char;
+        fragment.appendChild(span);
+    });
+    numbers.textContent = ""; 
+    numbers.appendChild(fragment);
 
-function randomShine() {
-    let spans = document.querySelectorAll(".binaryNumber span");
-    let randomIndex = Math.floor(Math.random() * spans.length); 
+    const spans = document.querySelectorAll(".binaryNumber span");
+    function randomShine() {
+        const randomIndex = Math.floor(Math.random() * spans.length);
+        const span = spans[randomIndex];
+        span.classList.add("shine");
 
-    spans[randomIndex].classList.add("shine"); 
+        setTimeout(() => {
+            span.classList.remove("shine");
+        }, 1000);
+    }
+    setInterval(randomShine, 500); 
 
 
-    setTimeout(() => {
-        spans[randomIndex].classList.remove("shine");
-    }, 1000); 
-}
+    const textArray = ["Bienvenue", "Welcome", "Bienvenidos", "欢迎光临", "ようこそ"];
+    const typingElement = document.querySelector(".welcome");
+    let currentIndex = 0;
 
-setInterval(randomShine, 200);
+    function typeText() {
+        typingElement.textContent = textArray[currentIndex];
+        typingElement.style.animation = "none";
+        void typingElement.offsetWidth;
+        typingElement.style.animation = "typing 2s steps(20) forwards, blink 0.5s step-end infinite alternate";
 
-const textArray = ["Bienvenue", "Welcome", "Bienvenidos", "欢迎光临", "ようこそ"];
-const typingElement = document.querySelector('.welcome');
-let currentIndex = 0;
+        currentIndex = (currentIndex + 1) % textArray.length;
+    }
+    typeText();
+    setInterval(typeText, 10000);
 
-function typeText() {
-    typingElement.textContent = textArray[currentIndex]; 
-    typingElement.style.animation = "none"; 
-    void typingElement.offsetWidth; 
-    typingElement.style.animation = "typing 2s steps(20) forwards, blink 0.5s step-end infinite alternate";
+    
+    const portfolioArray = ["Vers le Portfolio", "To the Portfolio", "Al Portafolio", "进入我的作品集", "ポートフォリオへ"];
+    const portfolioElement = document.querySelector(".redirectPortfolio");
+    let portfolioIndex = 0;
 
-    currentIndex = (currentIndex + 1) % textArray.length;
-}
+    function typePortfolio() {
+        portfolioElement.textContent = portfolioArray[portfolioIndex];
+        portfolioElement.style.animation = "none";
+        void portfolioElement.offsetWidth; 
+        portfolioElement.style.animation = "typing 2s steps(20) forwards, blink 0.5s step-end infinite alternate";
 
-typeText(); 
-setInterval(typeText, 5000);
-
+        portfolioIndex = (portfolioIndex + 1) % portfolioArray.length;
+    }
+    typePortfolio();
+    setInterval(typePortfolio, 10000);
+});
