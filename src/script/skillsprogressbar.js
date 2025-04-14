@@ -3,9 +3,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     circles.forEach(function (progress) {
         let degree = 0;
-        let targetDegree = parseInt(progress.getAttribute('data-degree')) || 0; // Default to 0 if empty
+        let targetDegree = parseInt(progress.getAttribute('data-degree')) || 0;
         let color = progress.getAttribute('data-color');
-        let number = progress.querySelector('.number'); // Select the child element
+        let number = progress.querySelector('.number');
 
         let interval = setInterval(function () {
             degree += 1;
