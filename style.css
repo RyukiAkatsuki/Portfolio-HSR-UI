@@ -351,6 +351,59 @@ body {
   background-color: #a900c31d;
 }
 
+.projectslist {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.projectslist .first-project {
+  text-align: center;
+}
+.projectslist .first-project h2 {
+  color: #b1b1b1;
+}
+.projectslist .first-project .puppetdex {
+  width: 700px;
+}
+.projectslist .first-project p {
+  color: #b1b1b1;
+}
+.projectslist .second-project {
+  text-align: center;
+  padding-top: 10px;
+}
+.projectslist .second-project h2 {
+  color: #b1b1b1;
+}
+.projectslist .second-project .shironeko {
+  width: 700px;
+}
+.projectslist .second-project p {
+  color: #b1b1b1;
+}
+
+.projectpart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.projectpart .first-project {
+  text-align: center;
+}
+.projectpart .first-project h2 {
+  color: #b1b1b1;
+}
+.projectpart .first-project .codinga1 {
+  width: 700px;
+}
+.projectpart .first-project p {
+  color: #b1b1b1;
+}
+
 .hugeBinaryBlock {
   display: flex;
   justify-content: center;

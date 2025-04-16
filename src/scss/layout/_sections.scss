@@ -1,0 +1,52 @@
+.projectslist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .first-project {
+        text-align: center;
+        h2 {
+            color: $main-font-color;
+        }
+        .puppetdex {
+            width: 700px;
+        }
+        p {
+            color: $main-font-color;
+        }
+    }
+    .second-project {
+        text-align: center;
+        padding-top: 10px;
+        h2 {
+            color: $main-font-color;
+        }
+        .shironeko {
+            width: 700px;
+        }
+        p {
+            color: $main-font-color;
+        }
+    }
+}
+
+.projectpart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .first-project {
+        text-align: center;
+        h2 {
+            color: $main-font-color;
+        }
+        .codinga1 {
+            width: 700px;
+        }
+        p {
+            color: $main-font-color;
+        }
+    }
+}
