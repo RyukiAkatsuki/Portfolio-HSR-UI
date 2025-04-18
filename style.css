@@ -404,6 +404,20 @@ body {
   color: #b1b1b1;
 }
 
+.hobbies-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 20px;
+}
+.hobbies-section a {
+  text-decoration: none;
+  color: #b1b1b1;
+}
+
 .hugeBinaryBlock {
   display: flex;
   justify-content: center;

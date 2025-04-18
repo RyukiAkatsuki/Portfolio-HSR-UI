@@ -8,7 +8,7 @@ const translations = {
         linkpresentation: "Présentation",
         linklanguageskills: "Langue Etrangère",
         linkprogrammingandwebskills: "Langages de Programmation et Web",
-        linkcv: "Mes CV",
+        linkcv: "Mon CV",
         linkhobbies: "Passion",
         linkfavlightnovel: "Light Novel Favoris",
         linkfavmanga: "Manga Favoris",
