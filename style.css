@@ -433,6 +433,63 @@ body {
   padding-top: 35px;
 }
 
+.owntopanime {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 20px;
+}
+.owntopanime .mknr {
+  width: 200px;
+}
+.owntopanime .xamd {
+  width: 200px;
+}
+.owntopanime .ds2 {
+  width: 200px;
+}
+
+.owntopmanga {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 20px;
+}
+.owntopmanga .nazeboku-manga {
+  width: 200px;
+}
+.owntopmanga .tomogame {
+  width: 200px;
+}
+.owntopmanga .mknr-manga {
+  width: 200px;
+}
+
+.owntoplightnovel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 20px;
+}
+.owntoplightnovel .nazeboku-ln {
+  width: 200px;
+}
+.owntoplightnovel .mknr-ln {
+  width: 200px;
+}
+.owntoplightnovel .kamigame {
+  width: 200px;
+}
+
 .hugeBinaryBlock {
   display: flex;
   justify-content: center;

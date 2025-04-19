@@ -79,3 +79,60 @@
 .animes, .manga, .lightnovel, .language, .music {
     padding-top: 35px;
 }
+
+.owntopanime {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 20px;
+    .mknr {
+        width: 200px;
+    }
+    .xamd {
+        width: 200px;
+    }
+    .ds2 {
+        width: 200px;
+    }
+}
+
+.owntopmanga {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 20px;
+    .nazeboku-manga {
+        width: 200px;
+    }
+    .tomogame {
+        width: 200px;
+    }
+    .mknr-manga {
+        width: 200px;
+    }
+}
+
+.owntoplightnovel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 20px;
+    .nazeboku-ln {
+        width: 200px;
+    }
+    .mknr-ln {
+        width: 200px;
+    }
+    .kamigame {
+        width: 200px;
+    }
+}
