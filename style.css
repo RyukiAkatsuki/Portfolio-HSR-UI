@@ -417,6 +417,21 @@ body {
   text-decoration: none;
   color: #b1b1b1;
 }
+.hobbies-section a:hover {
+  color: #ff2770;
+}
+
+.animestitle, .mangatitle, .lightnoveltitle, .languagetitle, .musictitle {
+  color: #d22020;
+}
+
+.animestext, .mangatext, .lightnoveltext, .languagetext, .musictext {
+  color: #a48de0;
+}
+
+.animes, .manga, .lightnovel, .language, .music {
+  padding-top: 35px;
+}
 
 .hugeBinaryBlock {
   display: flex;

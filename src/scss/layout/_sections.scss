@@ -61,6 +61,21 @@
     padding: 20px;
     a {
         text-decoration: none;
-        color: $main-font-color
+        color: $main-font-color;
+        &:hover {
+            color: $hover-color;
+        }
     }
+}
+
+.animestitle, .mangatitle, .lightnoveltitle, .languagetitle, .musictitle {
+    color: $main-title-color;
+}
+
+.animestext, .mangatext, .lightnoveltext, .languagetext, .musictext {
+    color: $main-text-color;
+}
+
+.animes, .manga, .lightnovel, .language, .music {
+    padding-top: 35px;
 }
