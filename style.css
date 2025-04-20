@@ -421,11 +421,19 @@ body {
   color: #ff2770;
 }
 
-.animestitle, .mangatitle, .lightnoveltitle, .languagetitle, .musictitle {
+.animestitle,
+.mangatitle,
+.lightnoveltitle,
+.languagetitle,
+.musictitle {
   color: #d22020;
 }
 
-.animestext, .mangatext, .lightnoveltext, .languagetext, .musictext {
+.animestext,
+.mangatext,
+.lightnoveltext,
+.languagetext,
+.musictext {
   color: #a48de0;
 }
 
@@ -433,61 +441,38 @@ body {
   padding-top: 35px;
 }
 
-.owntopanime {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  text-align: center;
-  padding-top: 20px;
-}
-.owntopanime .mknr {
-  width: 200px;
-}
-.owntopanime .xamd {
-  width: 200px;
-}
-.owntopanime .ds2 {
-  width: 200px;
-}
-
-.owntopmanga {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  text-align: center;
-  padding-top: 20px;
-}
-.owntopmanga .nazeboku-manga {
-  width: 200px;
-}
-.owntopmanga .tomogame {
-  width: 200px;
-}
-.owntopmanga .mknr-manga {
-  width: 200px;
-}
-
+.owntopanime,
+.owntopmanga,
 .owntoplightnovel {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
   text-align: center;
   padding-top: 20px;
 }
-.owntoplightnovel .nazeboku-ln {
-  width: 200px;
+.owntopanime div,
+.owntopmanga div,
+.owntoplightnovel div {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
-.owntoplightnovel .mknr-ln {
-  width: 200px;
+.owntopanime div h2,
+.owntopmanga div h2,
+.owntoplightnovel div h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #d22020;
 }
-.owntoplightnovel .kamigame {
+.owntopanime div img,
+.owntopmanga div img,
+.owntoplightnovel div img {
   width: 200px;
+  height: auto;
+  border-radius: 6px;
 }
 
 .hugeBinaryBlock {
