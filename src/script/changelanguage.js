@@ -9,12 +9,14 @@ fetch("src/script/languages.json")
 
 
 const languageSelecttop = document.getElementById("lang");
+// Avatar Side
 let names = document.querySelector(".name");
 let job = document.querySelector(".job");
 let whatiam = document.querySelector(".whatiam");
 let situation = document.querySelector(".situation");
 let hobbies = document.querySelector(".hobbies");
 let shortPresentation = document.querySelector(".shortpresentation");
+// Link Side
 let linkpresentation = document.querySelector(".linkpresentation");
 let linklanguageskills = document.querySelector(".linklanguageskills");
 let linkprogrammingandwebskills = document.querySelector(".linkprogrammingandwebskills");
@@ -41,6 +43,13 @@ const setLanguage = (language) => {
         whatiam.innerText = selectedTranslation.whatiam;
         situation.innerText = selectedTranslation.situation;
         hobbies.innerText = selectedTranslation.hobbies;
+        
+        if (["cn", "jp", "tw"].includes(language)) {
+            shortPresentation.style.height = "120px";
+        } else {
+            shortPresentation.style.height = ""; 
+        }
+
         linkpresentation.innerText = selectedTranslation.linkpresentation;
         linklanguageskills.innerText = selectedTranslation.linklanguageskills;
         linkprogrammingandwebskills.innerText = selectedTranslation.linkprogrammingandwebskills;
@@ -55,9 +64,4 @@ const setLanguage = (language) => {
         linkprofessionalproject.innerText = selectedTranslation.linkprofessionalproject;
     }
 
-    if (["cn", "jp", "tw"].includes(language)) {
-        shortPresentation.style.height = "120px";
-    } else {
-        shortPresentation.style.height = ""; 
-    }
 };
